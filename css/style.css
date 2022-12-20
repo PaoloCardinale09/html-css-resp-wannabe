@@ -93,6 +93,24 @@ img {
 
 }
 
+@media screen and (max-width: 480px) {
+    .row {
+        flex-direction: column;
+        gap: 5rem;
+    }
+
+    .row .col {
+        width: 100%;
+    }
+
+    .steps .col {
+        width: 100%;
+
+    }
+
+
+}
+
 /* STEPS SECTION */
 .steps {
     margin: 3rem 0;
@@ -115,6 +133,16 @@ img {
     margin-bottom: 1rem;
 }
 
+@media screen and (max-width: 480px) {
+
+    .steps .col {
+        width: 100%;
+
+    }
+
+
+}
+
 /* WHY US SECTION */
 .why-us {
     margin-bottom: 3rem;
@@ -131,6 +159,16 @@ img {
 .why-us li {
     list-style: none;
     margin-bottom: 2.5rem;
+}
+
+@media screen and (max-width: 480px) {
+
+    .why-us .col {
+        width: 100%;
+
+    }
+
+
 }
 
 /************************************************
